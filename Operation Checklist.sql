@@ -15,4 +15,4 @@ WHERE A."U_BUNIT" = 1008
   AND TO_CHAR(A."CntctDate", 'YYYYMMDD') BETWEEN '20240301' AND '20240304'
   AND A."CntctType" IN (1, 2, 3, 4, 5)
   AND (C."firstName" || ' ' || C."lastName") = 'Nasrin Islam Bristi'
-ORDER BY D."Name", TO_CHAR(A."CntctDate", 'DD Mon YYYY');
+ORDER BY D."Name", TO_CHAR(A."CntctDate", 'DD Mon YYYY'); 
